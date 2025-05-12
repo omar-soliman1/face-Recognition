@@ -1,4 +1,5 @@
 Face Recognition and Emotion Detection System
+
 This is a Python-based project that integrates real-time face recognition and emotion detection using OpenCV, Haar Cascades, the LBPH face recognizer, and a deep learning model trained on the FER2013 dataset.
 
 Features
