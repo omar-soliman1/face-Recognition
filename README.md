@@ -2,7 +2,8 @@ Face Recognition and Emotion Detection System
 
 This is a Python-based project that integrates real-time face recognition and emotion detection using OpenCV, Haar Cascades, the LBPH face recognizer, and a deep learning model trained on the FER2013 dataset.
 
-Features
+Features:
+
 Real-time face detection and recognition using OpenCV and Haar Cascade classifiers
 Captures and stores grayscale facial images for each user
 Trains a face recognizer using LBPH (Local Binary Patterns Histograms)
@@ -12,18 +13,21 @@ Displays emotion labels such as Happy, Sad, Angry, etc., on the detected faces
 Modular structure with separate Python scripts for each task
 
 Modules:
+
 data_collect.py - For capturing and saving face data
 training.py - For training the face recognition model
 recognizer.py - For real-time recognition and emotion detection
 
-Requirements
+Requirements:
+
 Python 3.6 or higher
 OpenCV (opencv-python)
 NumPy
 Keras and TensorFlow (for emotion detection)
 Standard Python libraries: os, shutil, etc.
 
-How to Use
+How to Use:
+
 1. Collect Facial Data
 Run the following command to start capturing facial images for training:
 python data_collect.py
@@ -41,10 +45,11 @@ The webcam feed will open.
 Detected faces will be matched with trained data.
 The recognized name and predicted emotion will be displayed on the video stream.
 
-Notes
-Ensure the webcam is connected and accessible before running the scripts
+Notes:
 
-The emotion detection model must be placed correctly and referenced in the script
+-Ensure the webcam is connected and accessible before running the scripts
 
-You can update the emotion model path or use another pre-trained model as needed
+-The emotion detection model must be placed correctly and referenced in the script
+
+-You can update the emotion model path or use another pre-trained model as needed
 
